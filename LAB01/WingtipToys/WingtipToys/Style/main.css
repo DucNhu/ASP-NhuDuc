@@ -1,0 +1,238 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+body {
+    overflow-x: hidden
+}
+.mb-70vh {margin-bottom: 70vh}
+
+line-2rem {line-height: 2rem}
+
+.position-relative {
+    position: relative
+}
+.navbar {
+    margin-bottom: 0  !important
+}
+
+    .navbar-nav {
+        flex-direction: row !important
+    }
+
+
+.logo-web {
+    z-index: 9000;
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+    left: 50%;
+    margin-top: .1rem;
+}
+
+.nav > li > a {
+    color: black;
+    font-size: 1.125rem;
+    padding: 2rem;
+    line-height: 2rem;
+    text-transform: uppercase
+}
+
+.bg-header {
+    background-color: white;
+    box-shadow: 0px 0px 20px black
+}
+
+.bg-white {background-color: white}
+
+/* BarButton*/
+
+.icon-bar {
+    background-color: black
+}
+
+/* Banner */
+
+
+/* Main */
+
+
+.list-link_pro {
+    z-index: 90;
+    position: relative
+}
+
+
+.link-product {
+    border: 1px solid white;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.link-product a {
+    color: white;
+    line-height: 50px;
+   font-weight: bold;
+   font-size: 2.125rem;
+}
+
+
+
+/* Main */
+.link-product:nth-child(1n+1) {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.link-product:nth-child(1) {
+    background-image: url('https://wingtipbrewing.com/wp-content/uploads/2019/08/Purchases.jpg')
+}
+.link-product:nth-child(2) {
+    background-image: url('https://wingtipbrewing.com/wp-content/uploads/2019/08/InFlightEnt.jpg')
+}
+.link-product:nth-child(3) {
+    background-image: url('https://wingtipbrewing.com/wp-content/uploads/2019/08/Boarding-Passes.jpg');
+}
+.link-product:nth-child(4)
+{
+    background-image: url('https://wingtipbrewing.com/wp-content/uploads/2019/08/Baggage.jpg')
+}
+.link-product:nth-child(5)
+{
+    background-image: url('https://wingtipbrewing.com/wp-content/uploads/2019/08/Purchases.jpg')
+}
+
+/* My Name */
+.maxhei-hidden {
+}
+.frame-name {
+
+}
+
+.myName {
+    font-family: 'Henny Penny', cursive;
+    font-size: 3em;
+    padding-left: 40%;
+    padding-top: 40%;
+    background: url('/Images/White-LowOpacity.png') #be45bf;
+}
+/* List Product */
+.box-classList {
+    position: absolute;
+    width: 50%;
+    top: 30%;
+    left: 30%;
+
+    z-index: 90;
+    padding: 3em;
+    text-align: center;
+}
+
+.link-pList {
+    padding: 1em;
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 5px black;
+
+    color: #939393 !important;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 20px;
+}
+.link-pList:hover {opacity: .8}
+.title-web {
+    font-family: 'Turret Road', cursive;
+    color: white;
+    text-shadow: 2px 2px 5px #070606;
+    font-size: 10em;
+    margin: 38px 0px;
+}
+
+.item_product {
+    padding: 10px
+}
+
+.frame-img_product {
+    padding: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.frame-img_product img {
+    width: 100%; height: 100%;
+    vertical-align: middle;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+.product-des {
+  
+}
+
+.product-des a {
+    color: black;
+    font-weight: bold;
+    font-size: 1.8rem
+}
+
+.product-des b {
+    margin-right: 10px
+}
+
+
+.add-cart {
+    margin-top: -1rem
+}
+/* List Product END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media */
+
+@media(max-width:768px) {
+
+    .logo-web {
+        left: 70%;
+        margin-top: .1rem;
+    }
+}
+
