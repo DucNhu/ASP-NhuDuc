@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using Newspaper1.Models;
 
 namespace Newspaper1
 {
@@ -33,6 +35,8 @@ namespace Newspaper1
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            var connection = @"Server=DESKTOP-T7QA6K7\SQLEXPRESS;Database=Newspaper;Trusted_Connection=True;ConnecRetryCount=0";
+            services.AddDbContext<NewspaperContext>(options => options.UseSqlServer(connection));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
