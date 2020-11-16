@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Courses";
+}
+
+<div class="navbar-fixed-top nav-tabs-justified">
+    @{ 
+        Html.RenderAction("messagepage", "Home");
+    }
+</div>
+
+
+<h2>Courses</h2>
+<div>
+    <ul>
+        <li>@Html.ActionLink("Download", "CourseMaterial", "Home")Asp .Net Mvc</li>
+        <li>@Html.ActionLink("Download", "CourseMaterial", "Home")ADO .Net</li>
+        <li>@Html.ActionLink("Download", "CourseMaterial", "Home")Entity Fr</li>
+        <li>@Html.ActionLink("Download", "CourseMaterial", "Home")Micro SQl Server</li>
+    </ul>
+
+
+    <script type="text/javascript" src="@Url.Content("~/Home/WarningMessage")"></script>
+</div>
+

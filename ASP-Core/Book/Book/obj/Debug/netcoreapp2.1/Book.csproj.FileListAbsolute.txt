@@ -34,4 +34,4 @@ C:\Users\Pc\Documents\GitHub\ASP-NhuHoangMinhDuc\ASP-NhuDuc\ASP-Core\Book\Book\o
 C:\Users\Pc\Documents\GitHub\ASP-NhuHoangMinhDuc\ASP-NhuDuc\ASP-Core\Book\Book\obj\Debug\netcoreapp2.1\Book.dll
 C:\Users\Pc\Documents\GitHub\ASP-NhuHoangMinhDuc\ASP-NhuDuc\ASP-Core\Book\Book\obj\Debug\netcoreapp2.1\Book.pdb
 C:\Users\Pc\Documents\GitHub\ASP-NhuHoangMinhDuc\ASP-NhuDuc\ASP-Core\Book\Book\obj\Debug\netcoreapp2.1\Book.csproj.CopyComplete
-C:\Users\Pc\Documents\GitHub\ASP-NhuHoangMinhDuc\ASP-NhuDuc\ASP-Core\Book\Book\obj\Debug\netcoreapp2.1\Razor\Views\Book\Create.cshtml.g.cs
+C:\Users\Pc\Documents\GitHub\ASP-NhuHoangMinhDuc\ASP-NhuDuc\ASP-Core\Book\Book\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Create.cshtml.g.cs

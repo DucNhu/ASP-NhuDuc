@@ -105,3 +105,4 @@ C:\Users\Pc\Documents\GitHub\ASP-NhuHoangMinhDuc\ASP-NhuDuc\ASP-Core\ContentMana
 C:\Users\Pc\Documents\GitHub\ASP-NhuHoangMinhDuc\ASP-NhuDuc\ASP-Core\ContentManagement\ContentManagement54\obj\Debug\ContentManagement54.csproj.CopyComplete
 C:\Users\Pc\Documents\GitHub\ASP-NhuHoangMinhDuc\ASP-NhuDuc\ASP-Core\ContentManagement\ContentManagement54\obj\Debug\ContentManagement54.dll
 C:\Users\Pc\Documents\GitHub\ASP-NhuHoangMinhDuc\ASP-NhuDuc\ASP-Core\ContentManagement\ContentManagement54\obj\Debug\ContentManagement54.pdb
+C:\Users\Pc\Documents\GitHub\ASP-NhuHoangMinhDuc\ASP-NhuDuc\ASP-Core\ContentManagement\ContentManagement54\obj\Debug\ContentManagement54.csprojAssemblyReference.cache

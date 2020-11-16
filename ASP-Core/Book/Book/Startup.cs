@@ -53,7 +53,7 @@ namespace Book
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Book}/{action=Create}/{id?}");
+                    template: "{controller=Customer}/{action=Create}/{id?}");
             });
         }
     }

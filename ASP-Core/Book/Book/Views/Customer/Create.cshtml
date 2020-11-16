@@ -1,0 +1,67 @@
+﻿@model Book.Models.CustomerModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<h4>BookModel</h4>
+<hr />
+<script type="text/javascript">
+
+    var nameValue = document.getElementsById("Name").Value;
+    var emailValue = document.getElementById("EmailId").Value;
+
+    function validateForm() {
+        var isValidForm = true;
+        if (nameValue == null || nameValue == "") {
+            document.getElementById("validationName").textContent = "Cus is requied";
+            isValidForm = false;
+        }
+
+        if (emailValue == null || emailValue == "") {
+            document.getElementById("validationEmail").textContent = "Cus is requied";
+            isValidForm = false;
+        }
+        return isValidForm;
+    }
+
+</script>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" id="Name" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+                <span id="validationEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmailId" class="control-label"></label>
+                <input asp-for="EmailId" class="form-control" id="EmailId" />
+                <span asp-validation-for="EmailId" class="text-danger"></span>
+                <span id="validationName"  class="text-danger"></span>
+            </div>
+            @*<div class="form-group">
+                    <label asp-for="Price" class="control-label"></label>
+                    <input asp-for="Price" class="form-control" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>*@
+            <div class="form-group">
+                <input type="submit" value="Create" onclick="validateForm()" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@*@section scripts {
+    @{ await html.renderpartialasync("_validationscriptspartial");}
+}*@
+
+
