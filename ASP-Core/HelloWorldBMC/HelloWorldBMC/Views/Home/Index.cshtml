@@ -1,0 +1,19 @@
+﻿@model HelloWorldBMC.Models.AppMessage
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>@Model.Message</h1><br />
+    <h2>@ViewBag.Message</h2>
+    <form method="post" asp-controller="Home" asp-action="Index">
+        <label asp-for="Message">Enter me</label>
+        <input type="text" asp-for="Message" />
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
