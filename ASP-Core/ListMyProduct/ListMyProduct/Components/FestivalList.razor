@@ -1,0 +1,22 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using ListMyProduct.Models
+@using ListMyProduct.Services
+@inject JsonFileFestivalService FestivalService
+
+<div class="container">
+    @foreach (var fes in FestivalService.GetFestivals())
+    {
+        <div class="card d-inline" style="width: 18rem;">
+            <a href="@fes.link">
+                <img src="@fes.Image" alt="Alternate Text" class="card-img-top" />
+                <div class="card-body">
+                    <p class="card-text">@fes.name</p>
+                </div>
+            </a>
+        </div>
+    }
+</div>
+
+@code {
+
+}

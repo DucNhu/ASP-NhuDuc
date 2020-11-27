@@ -6,7 +6,7 @@ using System.Web.Http;
 using Microsoft.Owin.Security.OAuth;
 using Newtonsoft.Json.Serialization;
 using System.Net.Http.Headers;
-
+using System.Web.Http.Cors;
 namespace Information_API
 {
     public static class WebApiConfig
@@ -28,6 +28,8 @@ namespace Information_API
             );
 
             config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("text/html"));
+
+            config.EnableCors(new EnableCorsAttribute("http://localhost:4200", "*", "*"));
         }
     }
 }

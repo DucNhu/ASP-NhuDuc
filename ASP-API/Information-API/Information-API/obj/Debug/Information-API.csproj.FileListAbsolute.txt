@@ -114,3 +114,6 @@ C:\Users\Pc\Documents\GitHub\ASP-NhuHoangMinhDuc\ASP-NhuDuc\ASP-API\Information-
 C:\Users\Pc\Documents\GitHub\ASP-NhuHoangMinhDuc\ASP-NhuDuc\ASP-API\Information-API\Information-API\obj\Debug\Information-API.csproj.CopyComplete
 C:\Users\Pc\Documents\GitHub\ASP-NhuHoangMinhDuc\ASP-NhuDuc\ASP-API\Information-API\Information-API\obj\Debug\Information-API.dll
 C:\Users\Pc\Documents\GitHub\ASP-NhuHoangMinhDuc\ASP-NhuDuc\ASP-API\Information-API\Information-API\obj\Debug\Information-API.pdb
+C:\Users\Pc\Documents\GitHub\ASP-NhuHoangMinhDuc\ASP-NhuDuc\ASP-API\Information-API\Information-API\bin\System.Web.Cors.dll
+C:\Users\Pc\Documents\GitHub\ASP-NhuHoangMinhDuc\ASP-NhuDuc\ASP-API\Information-API\Information-API\bin\System.Web.Http.Cors.dll
+C:\Users\Pc\Documents\GitHub\ASP-NhuHoangMinhDuc\ASP-NhuDuc\ASP-API\Information-API\Information-API\bin\System.Web.Http.Cors.xml
