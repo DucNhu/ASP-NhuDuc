@@ -1,0 +1,25 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using ListTrailer.Models
+@using ListTrailer.Services
+@inject JsonMovieService MovieService
+
+
+<div class="container row">
+    @foreach (var Movie in MovieService.GetMovies())
+    {
+    <article class="col-md-12 d-inline" style="width: 18rem; height: 40vh">
+        <iframe class="col-md-6 col-sm-6 h-100" src="@Movie.linkIframe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <a href="@Movie.link" class="float-right tẽt-dark">
+            <h3>@Movie.nameMovie</h3> 
+            <span>@Movie.view view - @Movie.time </span>
+            <div class="card-body">
+                <p class="card-text">@Movie.title</p>
+            </div>
+        </a>
+    </article>
+    }
+</div>
+
+@code {
+
+}

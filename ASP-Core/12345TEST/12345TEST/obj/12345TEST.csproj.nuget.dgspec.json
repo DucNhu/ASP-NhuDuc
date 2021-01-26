@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Pc\\Documents\\GitHub\\ASP-NhuHoangMinhDuc\\ASP-NhuDuc\\ASP-Core\\12345TEST\\12345TEST\\12345TEST.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Pc\\Documents\\GitHub\\ASP-NhuHoangMinhDuc\\ASP-NhuDuc\\ASP-Core\\12345TEST\\12345TEST\\12345TEST.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Pc\\Documents\\GitHub\\ASP-NhuHoangMinhDuc\\ASP-NhuDuc\\ASP-Core\\12345TEST\\12345TEST\\12345TEST.csproj",
+        "projectName": "12345TEST",
+        "projectPath": "C:\\Users\\Pc\\Documents\\GitHub\\ASP-NhuHoangMinhDuc\\ASP-NhuDuc\\ASP-Core\\12345TEST\\12345TEST\\12345TEST.csproj",
+        "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pc\\Documents\\GitHub\\ASP-NhuHoangMinhDuc\\ASP-NhuDuc\\ASP-Core\\12345TEST\\12345TEST\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
